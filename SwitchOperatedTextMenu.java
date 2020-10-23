@@ -15,9 +15,11 @@ System.out.print("Choose menu item: ");
 menuItem = in.nextInt();
 switch (menuItem) {
 case 1:System.out.println("You've chosen item #1");
+
 // do something...
 break;
 case 2:System.out.println("You've chosen item #2");
+System.out.println("My name is Vicky");
 // do something...
 break;
 case 0:quit = true;
